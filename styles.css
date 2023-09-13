@@ -12,7 +12,7 @@ img {
     position: relative;
 }
 
-/* Center container */
+
 .center-container {
     display: flex;
     flex-direction: column;
@@ -22,22 +22,20 @@ img {
     text-align: center;
 }
 
-/* Optional CSS styles for title and image-button */
+
 h1 {
     font-size: 64px;
     margin-bottom: 20px;
 }
 
-/* Style the image-button to look like a button */
+
 .image-button {
     display: inline-block;
-    padding: 0; /* Reset padding */
-    border: none; /* Reset border */
-    background: none; /* Reset background */
-    
+    padding: 0; 
+    border: none; 
+    background: none; 
 }
 
-/* Add additional styling for the image-button if needed */
 .image-button img {
-    width: 770px; /* Set the width of the image-button */
+    width: 770px; 
 }

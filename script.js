@@ -18,12 +18,9 @@ const links = [
     'https://lisagjh.github.io/your-tribe-profile-card/profilecard-versie-2/versie2.html', //Lisa
     'https://annevd.github.io/your-tribe-profile-card/', //Anne
     'https://yujing-student.github.io/your-tribe-profile-card/', //Yu Jing
+    'https://samarafelladina.github.io/your-tribe-profile-card/', //Samara
+    'https://rileyesther.github.io/your-tribe-profile-card/', //Riley
     '',
-    '',
-    '',
-
-    
-  
 ];
 
 function getRandomLink() {
@@ -31,7 +28,6 @@ function getRandomLink() {
     const selectedLink = links[randomIndex];
     window.location.href = selectedLink;
 }
-
 
 const randomButton = document.getElementById('randomButton');
 randomButton.addEventListener('click', getRandomLink);
