@@ -1,20 +1,37 @@
-// Define an array of links
+//Links
 const links = [
     'https://www.linkedin.com/in/mira%C3%A7-murt-a55296195/',
     'https://www.instagram.com/miracc__m/',
     'https://github.com/cariMYes',
     'https://www.youtube.com/channel/UCHaTiS9uXEJTW1zE3TFH0sQ',
+    //****************************************************//
+    'https://koeenm.github.io/your-tribe-profile-card/', //Koen
+    'https://rubenerhardt.github.io/your-tribe-profile-card/', //Ruben
+    'Https://ryank2004.github.io/your-tribe-profile-card/', //Ryan
+    'http://zainablfz.github.io/your-tribe-profile-card/', //Zainab
+    'https://saschavanvliet.github.io/your-tribe-profile-card/', //Sascha
+    'https://treppord.github.io/your-tribe-profile-card/', //Jasper
+    'https://miracc38.github.io/your-tribe-profile-card/', //Mirac
+    'https://naddybs.github.io/your-tribe-profile-card/', //Nadira
+    'https://daan645.github.io/your-tribe-profile-card-2/', //Daan
+    'https://tomdeeterink1.github.io/your-tribe-profile-card/', //Tom
+    'https://lisagjh.github.io/your-tribe-profile-card/profilecard-versie-2/versie2.html', //Lisa
+    'https://annevd.github.io/your-tribe-profile-card/', //Anne
+    'https://yujing-student.github.io/your-tribe-profile-card/', //Yu Jing
+    '',
+    '',
+    '',
+
     
-    // Add more links as needed
+  
 ];
 
-// Function to select and navigate to a random link
 function getRandomLink() {
     const randomIndex = Math.floor(Math.random() * links.length);
     const selectedLink = links[randomIndex];
     window.location.href = selectedLink;
 }
 
-// Attach a click event listener to the button
+
 const randomButton = document.getElementById('randomButton');
 randomButton.addEventListener('click', getRandomLink);
