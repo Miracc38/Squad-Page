@@ -2,7 +2,7 @@
 const links = [
     'https://www.linkedin.com/in/mira%C3%A7-murt-a55296195/',
     'https://www.instagram.com/miracc__m/',
-    'https://github.com/cariMYes',
+    'https://github.com/miracc38',
     'https://www.youtube.com/channel/UCHaTiS9uXEJTW1zE3TFH0sQ',
     //****************************************************//
     'https://koeenm.github.io/your-tribe-profile-card/', //Koen
