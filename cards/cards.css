@@ -1,3 +1,4 @@
+/*responsive image gallery video: https://www.youtube.com/watch?v=Trw_9lisYVY*/
 
 * {
   margin: 0;
@@ -6,7 +7,7 @@
 }
 
 img {
-  width: 220px;
+  width: 33vw;
 }
 
 .container {
@@ -18,7 +19,7 @@ img {
   margin: 40px 20px 0 20px;
 }
 
-.container .heading h3{
+.container .heading h3 {
   font-size: 3em;
   font-weight: bolder;
   border-bottom: 3px solid black;
@@ -32,7 +33,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:start;   
+  align-items: start;
 }
 
 .container .box .dream {
@@ -48,17 +49,21 @@ img {
   border: 3px white solid;
 }
 
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 769px) {
   .container .box {
     flex-direction: column;
-  }
+  }} 
 
-  .container .box .dream{
+  @media only screen and (max-width: 643px) {
+    .container .box .dream {
     width: 100%;
-}
-
-@media only screen and (max-width: 640) {
-  .container.heading h3 {
-    font-size: 1em;
   }
-}
+
+  .container.heading {
+    width: 100%;
+  }
+   
+    .container.heading h3 {
+      font-size: 1em;
+    }
+  }
