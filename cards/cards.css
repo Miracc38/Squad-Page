@@ -20,13 +20,12 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 40px 20px 0 20px;
+  margin: 2.5rem 1.5rem 0rem 1.5rem;
 }
 
 .container.heading h1 {
   font-size: 3em;
   font-weight: bolder;
-  border-bottom: 3px solid black;
 }
 
 h1 {
@@ -47,8 +46,8 @@ h1 {
 
 .container .box .photos img { 
   width: 100%; /* zorgt dat de fotos de volledige width van de column gebruiken */
-  margin-bottom: 20px;
-  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  border-radius: 5%;
 }
 
 .box {
