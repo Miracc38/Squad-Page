@@ -1,26 +1,23 @@
+
+
 * {
-
-  margin: 0;
-
+  margin: 10;
 }
 
 .menubutton {
-
   width: 1.5em;
   border: none;
- 
-
-
 }
 
 .home {
-
 width: 1em;
-
 }
 
 
 .navbar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
   overflow: hidden;
   background-color: transparent;
   font-family: Arial;

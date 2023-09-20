@@ -20,6 +20,9 @@ const links = [
     'https://yujing-student.github.io/your-tribe-profile-card/', //Yu Jing
     'https://samarafelladina.github.io/your-tribe-profile-card/', //Samara
     'https://rileyesther.github.io/your-tribe-profile-card/', //Riley
+    'https://akikosophia.github.io/your-tribe-profile-card/', //Akiko
+    'https://bibekma.github.io/your-tribe-profile-card/visitekaartje2/', //Bibek
+    'https://nadirelm.github.io/your-tribe-profile-card/', //Nadir
     '',
 ];
 
