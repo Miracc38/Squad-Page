@@ -50,9 +50,4 @@ toggle.onclick = function (){
     }else{ //er is geen class active, dan weer het gewone deur plaatje
         image.src = 'assets/door.png';
     }
-
-
-
-
-
 }
